@@ -1,3 +1,6 @@
 status: wip
 context:
-  text: Codesnippet
+  code: |
+    <ul>
+      <li> foo <mark>bar</mark> baz </li>
+    </ul>
