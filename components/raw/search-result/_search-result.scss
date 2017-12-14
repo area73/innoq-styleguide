@@ -1,0 +1,25 @@
+.search-result {
+  text-decoration: none;
+  color: $search-result-color;
+
+  &:hover,
+  &:focus {
+    .search-result__title {
+      color: $brand-interaction;
+    }
+  }
+}
+
+.search-result__date {
+  @extend %heading-font-regular;
+}
+
+.search-result__title {
+  @extend %h3;
+  transition: $standard-transition;
+
+  // Fix Google CSE markup and the resulting style
+  b {
+    font-weight: normal;
+  }
+}

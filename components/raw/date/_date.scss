@@ -1,0 +1,5 @@
+.date {
+  @extend %heading-font-bold;
+  line-height: $date-line-height;
+  font-size: $date-font-size;
+}
